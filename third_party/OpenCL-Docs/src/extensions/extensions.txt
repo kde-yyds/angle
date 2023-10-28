@@ -1,0 +1,47 @@
+// Copyright 2018-2022 The Khronos Group. This work is licensed under a
+// Creative Commons Attribution 4.0 International License; see
+// http://creativecommons.org/licenses/by/4.0/
+
+= OpenCL Extensions
+:R: pass:q,r[^(R)^]
+Khronos{R} OpenCL Working Group
+:data-uri:
+:icons: font
+:doctype: book
+:numbered!:
+:leveloffset: 1
+:max-width: 200
+:data-uri:
+:toc2:
+:toclevels: 2
+
+// Extension Template
+//:leveloffset: 0
+//== Extension Template
+//:leveloffset: 2
+//<<<
+//include::cl_extension_template.asciidoc[]
+
+// Draft Extensions
+//:leveloffset: 0
+//== Draft Extensions
+//:leveloffset: 2
+///<<<
+//include::cl_draft_extension.asciidoc[]
+
+// Vendor Extensions
+:leveloffset: 0
+== Intel Extensions
+:leveloffset: 2
+<<<
+include::cl_intel_subgroups.asciidoc[]
+<<<
+include::cl_intel_subgroups_short.asciidoc[]
+<<<
+include::cl_intel_required_subgroup_size.asciidoc[]
+<<<
+include::cl_intel_spirv_device_side_avc_motion_estimation.asciidoc[]
+<<<
+include::cl_intel_spirv_media_block_io.asciidoc[]
+<<<
+include::cl_intel_spirv_subgroups.asciidoc[]
